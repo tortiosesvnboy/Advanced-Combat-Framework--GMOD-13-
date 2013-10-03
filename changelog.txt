@@ -1,0 +1,52 @@
+r416
+--Minor updates to e2 fuel functions
+
+*r417
+--Fixed errors on gearbox when networked data hasn't been received
+
+*r419
+--Updated several sounds with fixed versions, courtesy of Switchblade
+
+*r420
+--Temporarily reverted ductility behaviour until armour tool gets properly fixed
+--Armour tool should now apply intended amount of armor
+
+*r422
+--New armor properties tool
+
+*r425
+--Fixed total mass calc
+
+*r427
+--Rebalanced CVTs; small and medium nerfed, large buffed
+
+*r428
+--Added 2 new special engines: 1.0L I4 and 2.6L Wankel
+--Small buff to 13L V12 special
+
+*r429
+--Fixed torque rating on small inline 8 speed gearbox
+
+*r430
+--Buffed straight-through gearboxes. They have +25% torque capacity and -25% weight, compared to inline/transaxial versions.
+
+*r431
+--Made link ropes on gearboxes force-breakable.  Most users shouldn't notice much difference.
+
+*r434
+--Changed how fuel tank are sorted in size selection.
+
+*r435
+--Reworked link system, non-physical driveshafts
+
+*r437
+--Removed some legacy code causing clientside lag when firing weapons.
+
+*r438
+--Fixed MG sound; made RAC sound a bit less stuttery.
+
+*r439
+--Fixed C-menu functions not working on gearbox
+
+*r442
+--Fixed ammunition with HE content.  Previously, the explosion could have been upwards of 500 units from the intended location, based on the velocity of the round.
